@@ -7,3 +7,8 @@ This is a Test Project.
 To see if it is possible to create '__Comment Module__' similar to '__Instant Messaging__' apps.
 
 ## Setup
+
+EXECUTE bash script file `init.sh` (use `bash` NOT `sh`)
+```shell
+bash ./init.sh
+```

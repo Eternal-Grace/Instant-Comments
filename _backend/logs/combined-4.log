@@ -1,0 +1,26 @@
+2021-11-05T17:08:28: Laravel development server started: http://0.0.0.0:3333
+2021-11-05T17:08:28: [Fri Nov  5 17:08:27 2021] PHP 7.4.24 Development Server (http://0.0.0.0:3333) started
+2021-11-05T17:08:44: Laravel development server started: http://0.0.0.0:3333
+2021-11-05T17:08:44: [Fri Nov  5 17:08:44 2021] PHP 7.4.24 Development Server (http://0.0.0.0:3333) started
+2021-11-05T17:08:52: Laravel development server started: http://0.0.0.0:3333
+2021-11-05T17:08:52: [Fri Nov  5 17:08:52 2021] PHP 7.4.24 Development Server (http://0.0.0.0:3333) started
+2021-11-05T17:09:00: [Fri Nov  5 17:09:00 2021] 127.0.0.1:51239 Accepted
+2021-11-05T17:09:00: [Fri Nov  5 17:09:00 2021] 127.0.0.1:51239 Closing
+2021-11-05T17:09:01: Laravel development server started: http://0.0.0.0:3333
+2021-11-05T17:09:01: [Fri Nov  5 17:09:01 2021] PHP 7.4.24 Development Server (http://0.0.0.0:3333) started
+2021-11-05T17:09:01: [Fri Nov  5 17:09:01 2021] 127.0.0.1:51242 Accepted
+2021-11-05T17:09:01: [Fri Nov  5 17:09:01 2021] 127.0.0.1:51242 [200]: GET /favicon.ico
+2021-11-05T17:09:01: [Fri Nov  5 17:09:01 2021] 127.0.0.1:51242 Closing
+2021-11-05T17:17:46: Laravel development server started: http://0.0.0.0:3333
+2021-11-05T17:17:46: [Fri Nov  5 17:17:46 2021] PHP 7.4.24 Development Server (http://0.0.0.0:3333) started
+2021-11-05T17:18:04: [Fri Nov  5 17:18:04 2021] 127.0.0.1:51297 Accepted
+2021-11-05T17:18:05: [Fri Nov  5 17:18:05 2021] 127.0.0.1:51297 Closing
+2021-11-05T17:18:05: [Fri Nov  5 17:18:05 2021] 127.0.0.1:51298 Accepted
+2021-11-05T17:18:05: [Fri Nov  5 17:18:05 2021] 127.0.0.1:51298 Closed without sending a request; it was probably just an unused speculative preconnection
+2021-11-05T17:18:05: [Fri Nov  5 17:18:05 2021] 127.0.0.1:51298 Closing
+2021-11-05T17:18:13: Laravel development server started: http://0.0.0.0:3333
+2021-11-05T17:18:13: [Fri Nov  5 17:18:13 2021] PHP 7.4.24 Development Server (http://0.0.0.0:3333) started
+2021-11-05T17:18:39: Laravel development server started: http://0.0.0.0:3333
+2021-11-05T17:18:39: [Fri Nov  5 17:18:39 2021] PHP 7.4.24 Development Server (http://0.0.0.0:3333) started
+2021-11-05T17:19:16: Laravel development server started: http://0.0.0.0:3333
+2021-11-05T17:19:16: [Fri Nov  5 17:19:16 2021] PHP 7.4.24 Development Server (http://0.0.0.0:3333) started
