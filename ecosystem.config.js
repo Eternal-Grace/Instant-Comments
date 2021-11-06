@@ -1,7 +1,7 @@
 module.exports = {
   apps : [
     {
-      name          : 'IM-FRONT', // App name that shows in `pm2 ls`
+      name          : 'IM--FRONT', // App name that shows in `pm2 ls`
       exec_mode     : 'cluster', // enables clustering
       instances     : 4, // or an integer
       cwd           : './_frontend', // only if using a subdirectory
@@ -36,12 +36,12 @@ module.exports = {
       log_file:     'logs/combined.log',
     },
     {
-      name:         'IM-BACK-SERVER',
+      name:         'IM--BACK-SERVER',
       instances:    1,
       cwd           : './_backend',
       script:       'artisan',
       interpreter:  'php',
-      args:         ['serve', '--host=0.0.0.0', '--port=3333'],
+      args:         ['serve'],
       wait_ready:   true,
       autorestart:  false,
       max_restarts: 1,
