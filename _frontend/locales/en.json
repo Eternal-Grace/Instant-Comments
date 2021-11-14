@@ -1,5 +1,5 @@
 {
-  "site_name": "Instant Comments",
+  "site_name": "Instant Messages (Chatroom)",
   "notification": {
     "error": "Error"
   },
@@ -12,7 +12,8 @@
   "component": {
     "chatroom": {
       "input": "Enter message here...",
-      "button": "Send"
+      "button": "Send",
+      "notice": "Only messages from the last 30 minutes shall be displayed."
     }
   }
 }

@@ -17,6 +17,9 @@ Route::prefix('chatroom')
     ->name('chatroom.')
     ->group(function () {
 
+        Route::get('/', 'ChatroomController@getMessages')
+            ->name('list');
+
         Route::post('message', 'ChatroomController@sendMessage')
             ->name('message');
     });

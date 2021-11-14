@@ -1,5 +1,5 @@
 {
-  "site_name": "Commentaires Instantanés",
+  "site_name": "Messages Instantanés (Chatroom)",
   "notification": {
     "error": "Error"
   },
@@ -12,7 +12,8 @@
   "component": {
     "chatroom": {
       "input": "Insérer un message ici...",
-      "button": "Envoyer"
+      "button": "Envoyer",
+      "notice": "Seul les messages de moins de 30 minutes seront affichés."
     }
   }
 }

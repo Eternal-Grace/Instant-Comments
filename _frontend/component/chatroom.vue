@@ -1,6 +1,6 @@
 <template>
   <v-card class="full-width full-height">
-    <v-container class="elevation-0 orange">
+    <v-container class="elevation-0">
       <v-row
         id="chatroom-content"
         ref="chatroomContent"
@@ -9,7 +9,7 @@
         align="center"
       >
         <div v-for="(data, key) in messages" :key="key" class="message">
-          <v-card flat :color="themeColor" :class="[
+          <v-card outlined elevation="6" flat :color="themeColor" :class="[
             'ma-2',
             (data.id === getId ? 'message--me' : 'message--other')
           ]">
@@ -50,6 +50,13 @@
       >
         {{ $t('component.chatroom.button') }}
       </v-btn>
+      <v-card-subtitle>
+        <small>
+          <em>
+            {{ $t('component.chatroom.notice') }}
+          </em>
+        </small>
+      </v-card-subtitle>
     </v-card-actions>
   </v-card>
 </template>
@@ -57,14 +64,27 @@
 <script type="text/ts" lang="ts">
 import { Vue, Component, Getter, Ref } from 'nuxt-property-decorator'
 import delay from 'lodash/delay'
+import { AxiosResponse } from 'axios'
+import { Context } from '@nuxt/types'
 
 interface MessageType {
   id: string
   message: string
-  socket: string
+  socket?: string
 }
 
-@Component({})
+@Component({
+  fetchOnServer: false,
+  async fetch(): Promise<void> {
+    const vueFetch: any = this
+    const { $axios }: Context = this.$nuxt.context
+    await $axios
+      .get('/api/chatroom')
+      .then(({ data }: AxiosResponse) => {
+        vueFetch.messages = data
+      })
+  }
+})
 export default class Chatroom extends Vue {
 
   @Ref('chatroomContent')
