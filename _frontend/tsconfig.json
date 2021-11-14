@@ -24,9 +24,16 @@
       ]
     },
     "types": [
+      "@types/node",
       "@nuxt/types",
+      "@nuxt/content",
+      "@nuxtjs/i18n",
       "@nuxtjs/axios",
-      "@types/node"
+      "@nuxtjs/vuetify",
+      "@nuxtjs/lodash"
+    ],
+    "typeRoots": [
+      "./types",
     ]
   },
   "exclude": [

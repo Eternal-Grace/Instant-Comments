@@ -17,13 +17,22 @@ return [
 
     'paths' => ['api/*'],
 
-    'allowed_methods' => ['*'],
+    'allowed_methods' => ['GET', 'HEAD', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => [config('app.front_url')],
 
     'allowed_origins_patterns' => [],
 
-    'allowed_headers' => ['*'],
+    'allowed_headers' => [
+        'Origin',
+        'Content-Type',
+        'X-Auth-Token',
+        'X-Requested-With',
+        'Accept',
+        'Authorization',
+        'X-CSRF-TOKEN',
+        'X-Socket-Id',
+    ],
 
     'exposed_headers' => [],
 

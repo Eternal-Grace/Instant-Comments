@@ -1,0 +1,18 @@
+{
+  "site_name": "Instant Comments",
+  "notification": {
+    "error": "Error"
+  },
+  "page": {
+    "error": {
+      "404": "404 - not found",
+      "other": "An error has occurred"
+    }
+  },
+  "component": {
+    "chatroom": {
+      "input": "Enter message here...",
+      "button": "Send"
+    }
+  }
+}

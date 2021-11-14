@@ -1,0 +1,18 @@
+{
+  "site_name": "Commentaires Instantanés",
+  "notification": {
+    "error": "Error"
+  },
+  "page": {
+    "error": {
+      "404": "404 - introuvable",
+      "other": "Une erreur est survenue"
+    }
+  },
+  "component": {
+    "chatroom": {
+      "input": "Insérer un message ici...",
+      "button": "Envoyer"
+    }
+  }
+}

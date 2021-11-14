@@ -1,0 +1,15 @@
+diff --git a/node_modules/@nuxtjs/laravel-echo/lib/plugin.js b/node_modules/@nuxtjs/laravel-echo/lib/plugin.js
+index 20f1179..5bef523 100644
+--- a/node_modules/@nuxtjs/laravel-echo/lib/plugin.js
++++ b/node_modules/@nuxtjs/laravel-echo/lib/plugin.js
+@@ -12,8 +12,8 @@ function getHeaders ({ app }) {
+   <% if (options.authModule) { %>
+   if (app.$auth) {
+     const strategy = app.$auth.strategy
+-    const tokenName = strategy.options.tokenName || 'Authorization'
+-    const token = app.$auth.getToken(strategy.name)
++    const tokenName = strategy.options.token.name || 'Authorization'
++    const token = strategy.token.get()
+
+     if (token) {
+       headers[tokenName] = token

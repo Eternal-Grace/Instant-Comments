@@ -37,11 +37,12 @@ module.exports = {
     },
     {
       name:         'IM--BACK-SERVER',
+      exec_mode     : 'fork', // enables clustering
       instances:    1,
       cwd           : './_backend',
       script:       'artisan',
       interpreter:  'php',
-      args:         ['serve'],
+      args:         ['serve', '--env', 'local'],
       wait_ready:   true,
       autorestart:  false,
       max_restarts: 1,
