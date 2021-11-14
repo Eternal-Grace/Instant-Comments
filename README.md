@@ -35,3 +35,4 @@ Then, you will be required to have the following applications:
 - install [composer](https://getcomposer.org/download/)
 - install [ffmpeg](https://ffmpeg.org)
 
+![Image Preview](https://raw.githubusercontent.com/Eternal-Grace/Instant-Messages/main/preview.gif)
