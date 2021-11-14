@@ -18,7 +18,7 @@ class UTF8String implements CastsAttributes
      */
     public function get($model, string $key, $value, array $attributes): string
     {
-        return htmlspecialchars_decode($value, ENT_QUOTES);
+        return htmlspecialchars_decode(html_entity_decode($value, ENT_QUOTES), ENT_QUOTES);
     }
 
     /**
