@@ -1,5 +1,5 @@
 # Instant Messages
-「Instant Messages」 - 'Laravel 7 / NuxtJS 2.15' Project
+「Instant Messages」 - 'Laravel 7 / NuxtJS 2.15' Project + [A little bit of Bash scripting & Python]
 
 ## Intro
 
