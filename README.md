@@ -36,3 +36,5 @@ Then, you will be required to have the following applications:
 - install [ffmpeg](https://ffmpeg.org)
 
 ![Image Preview](https://raw.githubusercontent.com/Eternal-Grace/Instant-Messages/main/preview.gif)
+
+![:name](https://count.loli.by/get/@Eternal-Grace?theme=rule34)
